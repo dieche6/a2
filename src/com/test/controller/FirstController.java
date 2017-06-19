@@ -9,7 +9,7 @@ public class FirstController {
     @RequestMapping("first.do")
     @ResponseBody
     public  String print(){
-        System.out.println("bbbccc");
+        System.out.println("ccc");
         return "aaa";
     }
 }
