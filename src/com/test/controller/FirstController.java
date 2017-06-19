@@ -9,6 +9,7 @@ public class FirstController {
     @RequestMapping("first.do")
     @ResponseBody
     public  String print(){
+        System.out.println("bbb");
         return "aaa";
     }
 }
